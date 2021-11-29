@@ -1,0 +1,18 @@
+{
+    "name": "Lyrics-Finder-Bot",
+    "description": "A Simple Telegram Bot That Can Search Lyrics Of Any Song With Pyrogram Framework. developed by rizad",
+    "repository": "https://github.com/riz4d/Lyrics-Finder-Bot",
+    "keywords": ["lyrics", "lines", "song", "search", "find"],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token From @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/"
+        }
+    },
+    "buildpacks": [{"url": "heroku/python"}]
+}
